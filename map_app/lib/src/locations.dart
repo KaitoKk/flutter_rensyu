@@ -50,7 +50,7 @@ class Office {
     required this.region,
   });
 
-  factory Office.fronJson(Map<String, dynamic> json) => _$OfficeFromJson(json);
+  factory Office.fromJson(Map<String, dynamic> json) => _$OfficeFromJson(json);
   Map<String, dynamic> toJson() => _$OfficeToJson(this);
 
   final String address;
